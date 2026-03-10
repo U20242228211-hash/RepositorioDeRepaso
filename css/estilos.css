@@ -1,0 +1,27 @@
+.bg-info-subtle {
+    background-color: blue !important;
+}
+
+.navbar.bg-info-subtle .navbar-brand,
+.navbar.bg-info-subtle .nav-link,
+.navbar.bg-info-subtle .nav-link.active {
+    color: #fff !important;
+}
+
+#inicio .row {
+    --bs-gutter-x: .5rem;
+}
+
+.inicio-img {
+    max-width: 520px;
+}
+
+/* Tema alterno activado por JavaScript */
+body.tema-alterno .bg-info-subtle {
+    background-color: #198754 !important;
+}
+
+body.tema-alterno #inicio {
+    background: linear-gradient(135deg, #14532d, #198754) !important;
+    color: #ffffff;
+}
